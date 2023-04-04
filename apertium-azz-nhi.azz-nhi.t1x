@@ -19,6 +19,14 @@
       <attr-item tags="@punct"/>
       <attr-item tags="@cc"/>
     </def-attr>
+    <def-attr n="a_poss">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px3sg"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+      <attr-item tags="px3pl"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
@@ -26,6 +34,7 @@
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="poss"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -38,6 +47,30 @@
   </section-def-macros>
 
   <section-rules>
+    <rule comment="REGLA: NOM">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <let><var n="poss"/><clip pos="1" side="tl" part="a_poss"/></let>
+        <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <var n="poss"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="poss"/><lit v=""/></let>
+      </action>
+    </rule>
+
     <rule comment="REGLA: CC">
       <pattern>
         <pattern-item n="cnjcoo"/>
