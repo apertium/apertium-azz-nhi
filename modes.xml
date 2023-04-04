@@ -35,8 +35,8 @@
         <file name="azz-nhi.t3x.bin"/>
       </program>
 
-      <program name="lt-proc $1">
-        <file name="azz-nhi.autogen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="azz-nhi.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -76,8 +76,8 @@
         <file name="nhi-azz.t3x.bin"/>
       </program>
 
-      <program name="lt-proc $1">
-        <file name="nhi-azz.autogen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="nhi-azz.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
