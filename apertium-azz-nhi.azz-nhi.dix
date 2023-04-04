@@ -7,11 +7,8 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
-    <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="v"           c="Verb, lexical"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
-    <sdef n="vbser"           c="'To be' verb"/>
-    <sdef n="vbhaver"         c="'To have' verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -20,6 +17,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="rel"             c=""/>
+    <sdef n="tv"             c=""/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -96,10 +95,12 @@
   </sdefs>
 
    <section id="main" type="standard">
+      <e><p><l>taman<s n="n"/></l><r>tlamantli<s n="n"/></r></p></e>
       <e><p><l>tepet<s n="n"/></l><r>tipetl<s n="n"/></r></p></e>
-      <e><p><l>tein<s n="cnjsub"/></l><r>tlen<s n="cnjsub"/></r></p></e> 
+      <e><p><l>tein<s n="prn"/><s n="rel"/></l><r>tlen<s n="cnjsub"/></r></p></e> 
       <e><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
-      <e><p><l>uan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
+      <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
+      <e><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
