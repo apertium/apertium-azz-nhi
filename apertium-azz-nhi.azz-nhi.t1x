@@ -4,6 +4,9 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="v.*"/>
+    </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
       <cat-item tags="cnjcoo.*"/>
