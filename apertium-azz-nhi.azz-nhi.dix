@@ -114,9 +114,11 @@
    <pardefs>
      <pardef n="verb-agr-object">
       <e><p><l><s n="o_ref"/></l><r><s n="refl"/></r></p></e>
+      <e><p><l></l><r></r></p></e>
      </pardef>
      <pardef n="verb-agr-subject">
       <e><p><l><s n="s_sg3"/></l><r><s n="s_sg3"/></r></p></e>
+      <e><p><l></l><r></r></p></e>
      </pardef>
      <pardef n="verb-prefixes">
       <e><p><l></l><r></r></p><par n="verb-agr-subject"/><par n="verb-agr-object"/></e>
@@ -131,7 +133,7 @@
       <e><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
