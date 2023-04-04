@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules glob="star">
+  <rule>
+    <match lemma="tepet" tags="n.*">
+      <select lemma="tipetl" tags="n.*"/>
+    </match>
+  </rule>
+</rules>
+
