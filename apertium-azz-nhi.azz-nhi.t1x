@@ -22,6 +22,24 @@
       <attr-item tags="@punct"/>
       <attr-item tags="@cc"/>
     </def-attr>
+    <def-attr n="a_subj_agr">
+      <attr-item tags="s_sg1"/>
+      <attr-item tags="s_sg2"/>
+      <attr-item tags="s_sg3"/>
+      <attr-item tags="s_pl1"/>
+      <attr-item tags="s_pl2"/>
+      <attr-item tags="s_pl3"/>
+    </def-attr>
+    <def-attr n="a_obj_agr">
+      <attr-item tags="o_ref"/>
+      <attr-item tags="o_sg1"/>
+      <attr-item tags="o_sg2"/>
+      <attr-item tags="o_sg3"/>
+      <attr-item tags="o_pl1"/>
+      <attr-item tags="o_pl2"/>
+      <attr-item tags="o_pl3"/>
+    </def-attr>
+
     <def-attr n="a_poss">
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -38,6 +56,8 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="poss"/>
+    <def-var n="obj-agr"/>
+    <def-var n="subj-agr"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -50,6 +70,33 @@
   </section-def-macros>
 
   <section-rules>
+    <rule comment="REGLA: VERB">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
+        <let><var n="obj-agr"/><clip pos="1" side="tl" part="a_obj_agr"/></let>
+        <let><clip pos="1" side="tl" part="a_subj_agr"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_obj_agr"/><lit v=""/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <var n="subj-agr"/>
+              <var n="obj-agr"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="poss"/><lit v=""/></let>
+      </action>
+    </rule>
+
     <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -73,6 +120,7 @@
         <let><var n="poss"/><lit v=""/></let>
       </action>
     </rule>
+
 
     <rule comment="REGLA: CC">
       <pattern>
