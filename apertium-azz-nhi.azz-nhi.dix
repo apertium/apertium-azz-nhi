@@ -154,8 +154,12 @@
       <e><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>tepejxikuako<s n="adv"/></l><r>tipehxicuaco<s n="adv"/></r></p></e>
+      <e><p><l>tein<s n="prn"/></l><r>tlen<s n="prn"/></r></p></e>
+
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="tv"/></l><r>huili<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>ita<s n="v"/><s n="tv"/></l><r>ita<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>chijchihua<s n="v"/><s n="tv"/></l><r>chihchihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
