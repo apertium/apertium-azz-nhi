@@ -144,30 +144,34 @@
      </pardef>
    </pardefs>
 
-   <section id="main" type="standard">
-      <e><par n="noun-prefixes"/><p><l>tit<s n="n"/></l><r>tlitl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tet<s n="n"/></l><r>titl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>taman<s n="n"/></l><r>tlamantl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tepet<s n="n"/></l><r>tipetl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>nojpal<s n="n"/></l><r>nopal<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>pajti<s n="n"/></l><r>pahtli<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>sitalin<s n="n"/></l><r>citlalin<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tech<s n="n"/></l><r>tich<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>nakastan<s n="n"/></l><r>nacaztlan<s n="n"/></r></p></e>
-
+   <section id="main" type="standard">	   
       <e><par n="noun-prefixes"/><p><l>iluikak<s n="n"/></l><r>ilhuicac<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tokait<s n="n"/></l><r>toca<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>ixtololo<s n="n"/></l><r>ixtololo<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tahuil<s n="n"/></l><r>tlahuil<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>taltikpak<s n="n"/></l><r>tlalticpac<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>tepos<s n="n"/></l><r>tipoztl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>ka<s n="n"/></l><r>ca<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>milaj<s n="n"/></l><r>milli<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>nakastan<s n="n"/></l><r>nacaztlan<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>nakayot<s n="n"/></l><r>nacayotl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>nojpal<s n="n"/></l><r>nopal<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omit<s n="n"/></l><r>omitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omiyot<s n="n"/></l><r>omiyotl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>nakayot<s n="n"/></l><r>nacayotl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>pajti<s n="n"/></l><r>pahtli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>rayo<s n="n"/></l><r>rayo<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>sitalin<s n="n"/></l><r>citlalin<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tajko<s n="n"/></l><r>tlahco<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tahuil<s n="n"/></l><r>tlahuil<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>taltikpak<s n="n"/></l><r>tlalticpac<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>taman<s n="n"/></l><r>tlamantl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tapajtiani<s n="n"/></l><r>tepahtani<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>rayo<s n="n"/></l><r>rayo<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tet<s n="n"/></l><r>titl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tech<s n="n"/></l><r>tich<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tepet<s n="n"/></l><r>tipetl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tepos<s n="n"/></l><r>tipoztl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tit<s n="n"/></l><r>tlitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tonal<s n="n"/></l><r>tonal<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tokait<s n="n"/></l><r>toca<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>yohual<s n="n"/></l><r>yohual<s n="n"/></r></p></e>
+
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
 
