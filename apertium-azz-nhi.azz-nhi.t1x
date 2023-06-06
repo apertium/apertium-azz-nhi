@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="det">
+      <cat-item tags="det.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -15,11 +18,16 @@
       <cat-item tags="sent"/>
       <cat-item tags="sent.*"/>
     </def-cat>
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
+      <cat-item tags="cm.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
     <def-attr n="a_dep">
       <attr-item tags="@punct"/>
+      <attr-item tags="@det"/>
       <attr-item tags="@cc"/>
     </def-attr>
     <def-attr n="a_subj_agr">
@@ -122,6 +130,26 @@
     </rule>
 
 
+    <rule comment="REGLA: DET">
+      <pattern>
+        <pattern-item n="det"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <out>
+          <chunk name="det" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="DET"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: CC">
       <pattern>
         <pattern-item n="cnjcoo"/>
@@ -132,6 +160,25 @@
           <chunk name="cc" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: CM">
+      <pattern>
+        <pattern-item n="cm"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <out>
+          <chunk name="cm" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CM"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -159,6 +206,7 @@
         </out>
       </action>
     </rule>
+
   </section-rules>
 </transfer>
 
