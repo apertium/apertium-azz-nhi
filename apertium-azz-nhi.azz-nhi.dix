@@ -145,12 +145,16 @@
    </pardefs>
 
    <section id="main" type="standard">	   
+      <e><par n="noun-prefixes"/><p><l>átomo<s n="n"/></l><r>átomo<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>iluikak<s n="n"/></l><r>ilhuicac<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>ixtololo<s n="n"/></l><r>ixtololo<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>ka<s n="n"/></l><r>ca<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>kohuatl<s n="n"/></l><r>coatla<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>milaj<s n="n"/></l><r>milli<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>mixti<s n="n"/></l><r>mixtli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nakastan<s n="n"/></l><r>nacaztlan<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nakayot<s n="n"/></l><r>nacayotl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>nemilis<s n="n"/></l><r>nimiliztl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nojpal<s n="n"/></l><r>nopal<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omit<s n="n"/></l><r>omitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omiyot<s n="n"/></l><r>omiyotl<s n="n"/></r></p></e>
