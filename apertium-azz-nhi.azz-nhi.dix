@@ -92,6 +92,7 @@
     <sdef n="rpar"            c="Right parenthesis"/>
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
+    <sdef n="lquest"           c=""/>
 
     <sdef n="o_sg1"           c=""/>
     <sdef n="o_sg2"           c=""/>
@@ -197,12 +198,19 @@
       <e><par n="noun-prefixes"/><p><l>tokait<s n="n"/></l><r>toca<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>yohual<s n="n"/></l><r>yohual<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xihuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>metsti<s n="n"/></l><r>metztli<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>mixuak<s n="n"/></l><r>huaqui<b/>mixtli<s n="n"/></r></p></e>
 
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
       <e><p><l>huaki<s n="adj"/></l><r>huaqui<s n="adj"/></r></p></e>
       <e><p><l>hueyi<s n="adj"/></l><r>hueyi<s n="adj"/></r></p></e>
       <e><p><l>kuali<s n="adj"/></l><r>cualli<s n="adj"/></r></p></e>
+
+      <e><p><l>nehua<s n="prn"/></l><r>nehhuatl<s n="prn"/></r></p></e>
+      <e><p><l>tehua<s n="prn"/></l><r>tehhuatl<s n="prn"/></r></p></e>
+      <e><p><l>yehua<s n="prn"/></l><r>yehhuatl<s n="prn"/></r></p></e>
 
       <e><p><l>tein<s n="prn"/></l><r>tlen<s n="prn"/></r></p></e>
       <e><p><l>seki<s n="prn"/></l><r>ciqui<s n="prn"/></r></p></e>
@@ -230,6 +238,7 @@
       <e><p><l>no<s n="adv"/></l><r>noyohqui<s n="adv"/></r></p></e>
       <e><p><l>kemej<s n="adv"/></l><r>queme<s n="adv"/></r></p></e>
       <e><p><l>keni<s n="adv"/></l><r>queni<s n="adv"/></r></p></e>
+      <e><p><l>semi<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
 
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
@@ -244,8 +253,9 @@
       <e><par n="verb-prefixes"/><p><l>panohua<s n="v"/></l><r>panoa<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><re>[.\?;:!…¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><i>,</i>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><i>¿</i>          <p><l><s n="sent"/></l>  <r><s n="lquest"/></r></p></e>
    </section>
 </dictionary>
 
