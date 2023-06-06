@@ -123,9 +123,11 @@
    <pardefs>
      <pardef n="verb-agr-object">
       <e><p><l><s n="o_ref"/></l><r><s n="refl"/></r></p></e>
+      <e><p><l><s n="o_sg3"/></l><r><s n="o_sg3"/></r></p></e>
       <e><p><l></l><r></r></p></e>
      </pardef>
      <pardef n="verb-agr-subject">
+      <e><p><l><s n="s_sg1"/></l><r><s n="s_sg1"/></r></p></e>
       <e><p><l><s n="s_sg3"/></l><r><s n="s_sg3"/></r></p></e>
       <e><p><l></l><r></r></p></e>
      </pardef>
@@ -208,6 +210,7 @@
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="tv"/></l><r>huili<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>piya<s n="v"/><s n="tv"/></l><r>piya<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>ita<s n="v"/><s n="tv"/></l><r>ita<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chijchihua<s n="v"/><s n="tv"/></l><r>chihchihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
