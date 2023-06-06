@@ -92,6 +92,7 @@
     <sdef n="rpar"            c="Right parenthesis"/>
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
+    <sdef n="lquest"           c=""/>
 
     <sdef n="o_sg1"           c=""/>
     <sdef n="o_sg2"           c=""/>
@@ -232,8 +233,9 @@
       <e><par n="verb-prefixes"/><p><l>panohua<s n="v"/></l><r>panoa<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><re>[.\?;:!…¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><i>,</i>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+      <e><i>¿</i>          <p><l><s n="sent"/></l>  <r><s n="lquest"/></r></p></e>
    </section>
 </dictionary>
 
