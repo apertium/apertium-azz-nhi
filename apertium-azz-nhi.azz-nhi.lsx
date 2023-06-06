@@ -1,0 +1,15 @@
+<dictionary type="separable">
+    <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+    <sdefs>
+        <sdef n="adj"/>
+        <sdef n="n"/>
+        <sdef n="abs"/>
+    </sdefs>
+    <section id="main" type="standard">
+<e lm="huaqui mixtli">
+  <p><l>huaqui<s n="adj"/><j/>mixtli<s n="n"/></l>
+     <r>huaqui<b/>mixtli<s n="n"/></r></p>
+     <i><t/><j/></i>
+  </e>
+    </section>
+</dictionary>

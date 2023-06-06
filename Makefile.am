@@ -14,6 +14,8 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
 	$(PREFIX1).autogen.bin	\
+	$(PREFIX1).autoseq.bin	\
+	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).autogen.hfst \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
@@ -29,6 +31,8 @@ TARGETS_DIR2 =		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
+	$(PREFIX2).autoseq.bin	\
+	$(PREFIX2).revautoseq.bin	\
 	$(PREFIX2).autogen.bin	\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
@@ -142,6 +146,22 @@ $(PREFIX1).rlx.bin: $(AP_SRC1)/$(LANG1).rlx.bin
 
 $(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
 	cp $< $@
+
+###############################################################################
+## Lexical sequences
+###############################################################################
+
+$(PREFIX1).autoseq.bin: $(BASENAME).$(PREFIX1).lsx
+	lsx-comp lr $< $@
+
+$(PREFIX2).autoseq.bin: $(BASENAME).$(PREFIX2).lsx
+	lsx-comp lr $< $@
+
+$(PREFIX1).revautoseq.bin: $(BASENAME).$(PREFIX2).lsx
+	lsx-comp rl $< $@
+
+$(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
+	lsx-comp rl $< $@
 
 ###############################################################################
 ## Bilingual dictionaries

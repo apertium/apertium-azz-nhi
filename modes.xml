@@ -14,6 +14,9 @@
       <program name="cg-proc -w -1 -n">
         <file name="azz-nhi.rlx.bin"/>
       </program>
+      <program name="lsx-proc">
+        <file name="azz-nhi.autoseq.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="azz-nhi.autobil.bin"/>
@@ -34,6 +37,10 @@
         <file name="apertium-azz-nhi.azz-nhi.t3x"/>
         <file name="azz-nhi.t3x.bin"/>
       </program>
+      <program name="lsx-proc">
+        <file name="azz-nhi.revautoseq.bin"/>
+      </program>
+
 
       <program name="hfst-proc $1">
         <file name="azz-nhi.autogen.hfst"/>
@@ -81,5 +88,50 @@
       </program>
     </pipeline>
   </mode>
+
+  <!-- EXTRA DEBUG MODES -->
+
+  <mode name="azz-nhi-revautoseq" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="azz-nhi.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w -1 -n">
+        <file name="azz-nhi.rlx.bin"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="azz-nhi.autoseq.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="azz-nhi.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="azz-nhi.autolex.bin"/>
+      </program>
+
+      <program name="apertium-transfer -b">
+        <file name="apertium-azz-nhi.azz-nhi.t1x"/>
+        <file name="azz-nhi.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-azz-nhi.azz-nhi.t2x"/>
+        <file name="azz-nhi.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-azz-nhi.azz-nhi.t3x"/>
+        <file name="azz-nhi.t3x.bin"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="azz-nhi.revautoseq.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
 </modes>
 
