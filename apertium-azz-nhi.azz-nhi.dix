@@ -228,7 +228,7 @@
       
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
-
+      <e><p><l>ijkuak<s n="cnjsub"/></l><r>ihcuac<s n="cnjsub"/></r></p></e>
       <e><p><l>ma<s n="aux"/></l><r>mo<s n="aux"/></r></p></e>
 
 
@@ -240,7 +240,8 @@
       <e><p><l>kemej<s n="adv"/></l><r>queme<s n="adv"/></r></p></e>
       <e><p><l>keni<s n="adv"/></l><r>queni<s n="adv"/></r></p></e>
       <e><p><l>semi<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
-
+      <e><p><l>ne<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
+      <e><p><l>tayijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="iv"/></l><r>huili<s n="v"/><s n="iv"/></r></p></e>
@@ -254,7 +255,7 @@
       <e><par n="verb-prefixes"/><p><l>panohua<s n="v"/></l><r>panoa<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>metstona<s n="v"/></l><r>tlametztona<s n="v"/></r></p></e>
-
+      <e><par n="verb-prefixes"/><p><l>miki<s n="v"/></l><r>miqui<s n="v"/></r></p></e>
       <e><re>[.\?;:!…¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><i>,</i>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
       <e><i>¿</i>          <p><l><s n="sent"/></l>  <r><s n="lquest"/></r></p></e>
