@@ -17,7 +17,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
-    <sdef n="pron"             c="Pronoun"/>
+    <sdef n="hon"             c=""/>
+    <sdef n="sg2"             c=""/>
     <sdef n="rel"             c=""/>
     <sdef n="tv"             c=""/>
     <sdef n="iv"             c=""/>
@@ -203,6 +204,9 @@
       <e><par n="noun-prefixes"/><p><l>xihuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>metsti<s n="n"/></l><r>metztli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>mixuak<s n="n"/></l><r>huaqui<b/>mixtli<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>istat<s n="n"/></l><r>iztatl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>galaxia<s n="n"/></l><r>galaxia<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>tajtol<s n="n"/></l><r>tlahtol<s n="n"/></r></p></e>
 
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
@@ -212,7 +216,11 @@
 
       <e><p><l>nehua<s n="prn"/></l><r>nehhuatl<s n="prn"/></r></p></e>
       <e><p><l>tehua<s n="prn"/></l><r>tehhuatl<s n="prn"/></r></p></e>
+      <e><p><l>tehua<s n="prn"/><s n="pers"/><s n="sg2"/><s n="hon"/></l><r>tehhuatzin<s n="prn"/><s n="pers"/><s n="sg2"/><s n="hon"/></r></p></e>
       <e><p><l>yehua<s n="prn"/></l><r>yehhuatl<s n="prn"/></r></p></e>
+      <e><p><l>tehuan<s n="prn"/></l><r>tehhuan<s n="prn"/></r></p></e>
+      <e><p><l>namehuan<s n="prn"/></l><r>nimehhuan<s n="prn"/></r></p></e>
+      <e><p><l>yehuan<s n="prn"/></l><r>yehhuan<s n="prn"/></r></p></e>
 
       <e><p><l>tein<s n="prn"/></l><r>tlen<s n="prn"/></r></p></e>
       <e><p><l>seki<s n="prn"/></l><r>ciqui<s n="prn"/></r></p></e>
@@ -249,9 +257,12 @@
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="iv"/></l><r>huili<s n="v"/><s n="iv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>piya<s n="v"/><s n="tv"/></l><r>piya<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>ita<s n="v"/><s n="tv"/></l><r>itta<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>mati<s n="v"/><s n="tv"/></l><r>mati<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>ixmati<s n="v"/><s n="tv"/></l><r>ixmati<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chijchihua<s n="v"/><s n="tv"/></l><r>chihchihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>toponi<s n="v"/><s n="tv"/></l><r>tlatoponi<s n="v"/><s n="v"/></r></p></e>    
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>notsa<s n="v"/><s n="tv"/></l><r>notza<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>talia<s n="v"/></l><r>tlalia<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>neki<s n="v"/></l><r>niqui<s n="v"/></r></p></e>
@@ -260,6 +271,8 @@
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>metstona<s n="v"/></l><r>tlametztona<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>miki<s n="v"/></l><r>miqui<s n="v"/></r></p></e>
+
+      <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
       <e><re>[.\?;:!…¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><i>,</i>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
       <e><i>¿</i>          <p><l><s n="sent"/></l>  <r><s n="lquest"/></r></p></e>
