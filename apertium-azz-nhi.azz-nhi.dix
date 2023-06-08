@@ -96,6 +96,8 @@
     <sdef n="lquest"           c=""/>
 
     <sdef n="o_sg1"           c=""/>
+    <sdef n="o_aa"           c=""/>
+    <sdef n="o_nn"           c=""/>
     <sdef n="o_sg2"           c=""/>
     <sdef n="o_sg3"           c=""/>
     <sdef n="o_pl1"           c=""/>
@@ -126,6 +128,8 @@
    <pardefs>
      <pardef n="verb-agr-object">
 	     <e><p><l><s n="o_ref"/></l><r><s n="refl"/></r></p></e>
+	     <e><p><l><s n="o_nn"/></l><r><s n="o_nn"/></r></p></e>
+	     <e><p><l><s n="o_aa"/></l><r><s n="o_aa"/></r></p></e>
 	     <e><p><l><s n="o_sg3"/></l><r><s n="o_sg3"/></r></p></e>
              <e><p><l><s n="o_sg2"/></l><r><s n="o_sg2"/></r></p></e>
              <e><p><l><s n="o_sg1"/></l><r><s n="o_sg1"/></r></p></e>
@@ -180,6 +184,7 @@
       <e><par n="noun-prefixes"/><p><l>nakayot<s n="n"/></l><r>nacayotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nemilis<s n="n"/></l><r>nimiliztl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nojpal<s n="n"/></l><r>nopal<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>okuilin<s n="n"/></l><r>ocuilin<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omit<s n="n"/></l><r>omitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>omiyot<s n="n"/></l><r>omiyotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>pajti<s n="n"/></l><r>pahtli<s n="n"/></r></p></e>
@@ -200,6 +205,7 @@
       <e><par n="noun-prefixes"/><p><l>tonal<s n="n"/></l><r>tonal<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tokait<s n="n"/></l><r>toca<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xochit<s n="n"/></l><r>xochitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>yohual<s n="n"/></l><r>yohual<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xihuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>metsti<s n="n"/></l><r>metztli<s n="n"/></r></p></e>
@@ -211,8 +217,10 @@
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
       <e><p><l>huaki<s n="adj"/></l><r>huaqui<s n="adj"/></r></p></e>
-      <e><p><l>hueyi<s n="adj"/></l><r>hueyi<s n="adj"/></r></p></e>
+      <e><p><l>huei<s n="adj"/></l><r>hueyi<s n="adj"/></r></p></e>
       <e><p><l>kuali<s n="adj"/></l><r>cualli<s n="adj"/></r></p></e>
+      <e><p><l>tsiki<s n="adj"/></l><r>tzoco<s n="adj"/></r></p></e>
+      <e><p><l>yolik<s n="adj"/></l><r>yolic<s n="adj"/></r></p></e>
 
       <e><p><l>nehua<s n="prn"/></l><r>nehhuatl<s n="prn"/></r></p></e>
       <e><p><l>tehua<s n="prn"/></l><r>tehhuatl<s n="prn"/></r></p></e>
@@ -224,12 +232,15 @@
 
       <e><p><l>tein<s n="prn"/></l><r>tlen<s n="prn"/></r></p></e>
       <e><p><l>seki<s n="prn"/></l><r>ciqui<s n="prn"/></r></p></e>
+      <e><p><l>nochi<s n="prn"/></l><r>nochi<s n="prn"/></r></p></e>
 
       <e><p><l>in<s n="det"/></l><r>in<s n="det"/></r></p></e>
       <e><p><l>nejin<s n="det"/></l><r>nin<s n="det"/></r></p></e>
+      <e><p><l>nijin<s n="det"/></l><r>nin<s n="det"/></r></p></e>
       <e><p><l>nejon<s n="det"/></l><r>non<s n="det"/></r></p></e>
       <e><p><l>miak<s n="det"/></l><r>miac<s n="det"/></r></p></e>
       <e><p><l>seki<s n="det"/></l><r>ciqui<s n="det"/></r></p></e>
+      <e><p><l>nochi<s n="det"/></l><r>nochi<s n="det"/></r></p></e>
 
 
       <e><p><l>se<s n="num"/></l><r>ce<s n="num"/></r></p></e>
@@ -239,11 +250,14 @@
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
       <e><p><l>ijkuak<s n="cnjsub"/></l><r>ihcuac<s n="cnjsub"/></r></p></e>
+      <e><p><l>oso<s n="cnjsub"/></l><r>o<s n="cnjsub"/></r></p></e>
+      <e><p><l>ta<s n="cnjsub"/></l><r>tla<s n="cnjsub"/></r></p></e>
       <e><p><l>ma<s n="aux"/></l><r>ma<s n="aux"/></r></p></e>
 
 
       <e><p><l>tepejxikuako<s n="adv"/></l><r>tipehxicuaco<s n="adv"/></r></p></e>
       <e><p><l>axkan<s n="adv"/></l><r>axan<s n="adv"/></r></p></e>
+      <e><p><l>kachi<s n="adv"/></l><r>cachi<s n="adv"/></r></p></e>
       <e><p><l>amo<s n="adv"/></l><r>amo<s n="adv"/></r></p></e>
       <e><p><l>ijkon<s n="adv"/></l><r>ohcon<s n="adv"/></r></p></e>
       <e><p><l>no<s n="adv"/></l><r>noyohqui<s n="adv"/></r></p></e>
@@ -251,6 +265,8 @@
       <e><p><l>keni<s n="adv"/></l><r>queni<s n="adv"/></r></p></e>
       <e><p><l>semi<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
       <e><p><l>ne<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
+      <e><p><l>sayoj<s n="adv"/></l><r>zan<s n="adv"/></r></p></e>
+      <e><p><l>kanpa<s n="adv"/></l><r>campa<s n="adv"/></r></p></e>
       <e><p><l>tayijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
@@ -264,6 +280,7 @@
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>notsa<s n="v"/><s n="tv"/></l><r>notza<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>palehuia<s n="v"/></l><r>palehuia<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>talia<s n="v"/></l><r>tlalia<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>neki<s n="v"/></l><r>niqui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>tekitiltia<s n="v"/></l><r>tiquitiltia<s n="v"/></r></p></e>
