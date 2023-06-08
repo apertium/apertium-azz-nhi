@@ -5,7 +5,7 @@
       <cat-item tags="det.*"/>
     </def-cat>
     <def-cat n="notsa_ref">
-      <cat-item tags="v.tv.pres.*.i_ref.*"/>
+      <cat-item lemma="notsa" tags="v.tv.pres.*.i_ref.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
