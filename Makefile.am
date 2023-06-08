@@ -13,7 +13,7 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
-	$(PREFIX1).autogen.bin	\
+	$(PREFIX1).autogen.hfst \
 	$(PREFIX1).autoseq.bin	\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).autogen.hfst \
@@ -33,7 +33,7 @@ TARGETS_DIR2 =		\
 	$(PREFIX2).autolex.bin	\
 	$(PREFIX2).autoseq.bin	\
 	$(PREFIX2).revautoseq.bin	\
-	$(PREFIX2).autogen.bin	\
+	$(PREFIX2).autogen.hfst \
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin

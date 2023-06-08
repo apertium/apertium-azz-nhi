@@ -20,6 +20,7 @@
     <sdef n="hon"             c=""/>
     <sdef n="sg2"             c=""/>
     <sdef n="rel"             c=""/>
+    <sdef n="barb"             c=""/>
     <sdef n="tv"             c=""/>
     <sdef n="iv"             c=""/>
     <sdef n="aux"             c="Auxiliary"/>
@@ -205,6 +206,10 @@
       <e><par n="noun-prefixes"/><p><l>istat<s n="n"/></l><r>iztatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>galaxia<s n="n"/></l><r>galaxia<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tajtol<s n="n"/></l><r>tlahtol<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>itskuinti<s n="n"/></l><r>itzcuintli<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>piyo<s n="n"/><s n="hon"/></l><r>pollito<s n="n"/><s n="barb"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>konet<s n="n"/></l><r>conetl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>miston<s n="n"/></l><r>mizton<s n="n"/></r></p></e>
 
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
@@ -236,6 +241,7 @@
       
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
+      <e><p><l>porque<s n="cnjsub"/></l><r>porque<s n="cnjsub"/></r></p></e>
       <e><p><l>ijkuak<s n="cnjsub"/></l><r>ihcuac<s n="cnjsub"/></r></p></e>
       <e><p><l>ma<s n="aux"/></l><r>mo<s n="aux"/></r></p></e>
 
@@ -249,6 +255,7 @@
       <e><p><l>keni<s n="adv"/></l><r>queni<s n="adv"/></r></p></e>
       <e><p><l>semi<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
       <e><p><l>ne<s n="adv"/></l><r>ne<s n="adv"/></r></p></e>
+      <e><p><l>ompa<s n="adv"/></l><r>ompa<s n="adv"/></r></p></e>
       <e><p><l>tayijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
@@ -267,6 +274,8 @@
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>metstona<s n="v"/></l><r>tlametztona<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>miki<s n="v"/></l><r>miqui<s n="v"/></r></p></e>
+
+      <e><p><l>aaa<s n="ij"/></l><r>aaa<s n="ij"/></r></p></e>
 
       <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
       <e><re>[.\?;:!…¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
