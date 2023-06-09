@@ -263,9 +263,11 @@
       <e><p><l>nochi<s n="prn"/></l><r>nochi<s n="prn"/></r></p></e>
 
       <e><p><l>in<s n="det"/></l><r>in<s n="det"/></r></p></e>
+      <e><p><l>ne<s n="det"/></l><r>neca<s n="det"/></r></p></e>
       <e><p><l>nejin<s n="det"/></l><r>nin<s n="det"/></r></p></e>
       <e><p><l>nijin<s n="det"/></l><r>nin<s n="det"/></r></p></e>
       <e><p><l>nejon<s n="det"/></l><r>non<s n="det"/></r></p></e>
+      <e><p><l>neje<s n="det"/></l><r>non<s n="det"/></r></p></e>
       <e><p><l>miak<s n="det"/></l><r>miac<s n="det"/></r></p></e>
       <e><p><l>seki<s n="det"/></l><r>ciqui<s n="det"/></r></p></e>
       <e><p><l>nochi<s n="det"/></l><r>nochi<s n="det"/></r></p></e>
@@ -298,6 +300,7 @@
       <e><p><l>sayoj<s n="adv"/></l><r>zan<s n="adv"/></r></p></e>
       <e><p><l>kanpa<s n="adv"/></l><r>campa<s n="adv"/></r></p></e>
       <e><p><l>tayijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
+      <e><p><l>nikan<s n="adv"/></l><r>nican<s n="adv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="iv"/></l><r>huili<s n="v"/><s n="iv"/></r></p></e>
@@ -306,10 +309,11 @@
       <e><par n="verb-prefixes"/><p><l>mati<s n="v"/><s n="tv"/></l><r>mati<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>ixmati<s n="v"/><s n="tv"/></l><r>ixmati<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chijchihua<s n="v"/><s n="tv"/></l><r>chihchihua<s n="v"/><s n="tv"/></r></p></e>
-      <e><par n="verb-prefixes"/><p><l>toponi<s n="v"/><s n="tv"/></l><r>tlatoponi<s n="v"/><s n="v"/></r></p></e>    
+      <e><par n="verb-prefixes"/><p><l>toponi<s n="iv"/><s n="iv"/></l><r>tlatoponi<s n="v"/><s n="v"/></r></p></e>    
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>notsa<s n="v"/><s n="tv"/></l><r>notza<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>yohui<s n="v"/><s n="iv"/></l><r>yohui<s n="v"/><s n="iv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>kisa<s n="v"/><s n="iv"/></l><r>quiza<s n="v"/><s n="iv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>nankilia<s n="v"/><s n="tv"/></l><r>nahuati<s n="v"/><s n="iv"/></r></p></e>
 
