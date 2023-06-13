@@ -177,7 +177,7 @@
 	    
       <e><p><l></l><r></r></p></e>
      </pardef>
-     <pardef n="noun-prefixes">
+     <pardef n="poss-prefixes">
       <e><p><l><s n="px1sg"/></l><r><s n="px1sg"/></r></p></e>
       <e><p><l><s n="px2sg"/></l><r><s n="px2sg"/></r></p></e>
       <e><p><l><s n="px3sg"/></l><r><s n="px3sg"/></r></p></e>
@@ -186,6 +186,12 @@
       <e><p><l><s n="px3pl"/></l><r><s n="px3pl"/></r></p></e>
       <e><p><l></l><r></r></p></e>
      </pardef>
+
+     <pardef n="noun-prefixes">
+	 <e><p><l></l><r></r></p><par n="verb-agr-subject"/><par n="poss-prefixes"/></e>
+	 <e><p><l><s n="s_sg2"/><s n="hon"/></l><r><s n="s_sg2"/><s n="hon"/></r></p><par n="poss-prefixes"/></e>
+     </pardef>
+
    </pardefs>
 
    <section id="main" type="standard">	   
@@ -241,6 +247,7 @@
       <e><par n="noun-prefixes"/><p><l>piyo<s n="n"/><s n="hon"/></l><r>pollito<s n="n"/><s n="barb"/><s n="m"/><s n="sg"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>konet<s n="n"/></l><r>conetl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>miston<s n="n"/></l><r>mizton<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>mama<s n="n"/></l><r>maman<s n="n"/></r></p></e>
 
 
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
@@ -316,6 +323,7 @@
       <e><par n="verb-prefixes"/><p><l>kisa<s n="v"/><s n="iv"/></l><r>quiza<s n="v"/><s n="iv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>nankilia<s n="v"/><s n="tv"/></l><r>nahuati<s n="v"/><s n="iv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>ajsi<s n="v"/><s n="tv"/></l><r>ahsi<s n="v"/><s n="iv"/></r></p></e>
 
       <e><par n="verb-prefixes"/><p><l>onka<s n="v"/></l><r>catqui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>palehuia<s n="v"/></l><r>palehuia<s n="v"/></r></p></e>

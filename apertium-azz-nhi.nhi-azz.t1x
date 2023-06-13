@@ -4,6 +4,20 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="nom-pred">
+      <cat-item tags="n.s_sg1"/>
+      <cat-item tags="n.s_sg2"/>
+      <cat-item tags="n.s_sg3"/>
+      <cat-item tags="n.s_pl1"/>
+      <cat-item tags="n.s_pl2"/>
+      <cat-item tags="n.s_pl3"/>
+      <cat-item tags="n.s_sg1.*"/>
+      <cat-item tags="n.s_sg2.*"/>
+      <cat-item tags="n.s_sg3.*"/>
+      <cat-item tags="n.s_pl1.*"/>
+      <cat-item tags="n.s_pl2.*"/>
+      <cat-item tags="n.s_pl3.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -42,6 +56,7 @@
     <def-attr n="a_subj_agr">
       <attr-item tags="s_sg1"/>
       <attr-item tags="s_sg2"/>
+      <attr-item tags="s_sg2.hon"/>
       <attr-item tags="s_sg3"/>
       <attr-item tags="s_pl1"/>
       <attr-item tags="s_pl2"/>
@@ -138,6 +153,34 @@
         <let><var n="poss"/><lit v=""/></let>
       </action>
     </rule>
+
+    <rule comment="REGLA: NOM-PRED">
+      <pattern>
+        <pattern-item n="nom-pred"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
+        <let><clip pos="1" side="tl" part="a_subj_agr"/><lit v=""/></let>
+        <let><var n="poss"/><clip pos="1" side="tl" part="a_poss"/></let>
+        <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <var n="subj-agr"/>
+              <var n="poss"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="poss"/><lit v=""/></let>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: NOM">
       <pattern>
