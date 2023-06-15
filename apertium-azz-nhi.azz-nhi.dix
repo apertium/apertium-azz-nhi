@@ -279,6 +279,7 @@
       
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
+      <e><p><l>ke<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
       <e><p><l>porque<s n="cnjsub"/></l><r>porque<s n="cnjsub"/></r></p></e>
       <e><p><l>ijkuak<s n="cnjsub"/></l><r>ihcuac<s n="cnjsub"/></r></p></e>
       <e><p><l>oso<s n="cnjsub"/></l><r>o<s n="cnjsub"/></r></p></e>
@@ -322,7 +323,7 @@
       <e><par n="verb-prefixes"/><p><l>kui<s n="v"/></l><r>cui<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>metstona<s n="v"/></l><r>tlametztona<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>miki<s n="v"/></l><r>miqui<s n="v"/></r></p></e>
-
+      <e><par n="verb-prefixes"/><p><l>xota<s n="v"/></l><r>xotla<s n="v"/></r></p></e>
       <e><p><l>aaa<s n="ij"/></l><r>aaa<s n="ij"/></r></p></e>
 
       <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
