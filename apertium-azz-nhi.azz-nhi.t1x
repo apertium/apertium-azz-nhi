@@ -7,8 +7,14 @@
     <def-cat n="notsa_ref">
       <cat-item lemma="notsa" tags="v.tv.pres.*.i_ref.*"/>
     </def-cat>
+    <def-cat n="se">
+      <cat-item lemma="se" tags="*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="v.*"/>
     </def-cat>
     <def-cat n="verb-tv">
       <cat-item tags="v.tv.*"/>
@@ -49,6 +55,7 @@
       <attr-item tags="s_pl1"/>
       <attr-item tags="s_pl2"/>
       <attr-item tags="s_pl3"/>
+      <attr-item tags="s_ind"/>
     </def-attr>
     <def-attr n="a_obj_agr">
       <attr-item tags="o_ref"/>
@@ -90,6 +97,27 @@
   </section-def-macros>
 
   <section-rules>
+    <rule comment="REGLA: SE-SEP">
+      <pattern>
+        <pattern-item n="se"/>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <let><var n="subj-agr"/><lit-tag v="s_ind"/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <var n="subj-agr"/>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: NOTSA">
       <pattern>

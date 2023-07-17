@@ -210,7 +210,7 @@
       <e><par n="noun-prefixes"/><p><l>célula<s n="n"/></l><r>célula<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>celular<s n="n"/></l><r>celular<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>chikahualis<s n="n"/></l><r>chicahualiztl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>chipahuakatl<s n="n"/></l><r>chupahuacatl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>chipahuakat<s n="n"/></l><r>chupahuacatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>danza<s n="n"/></l><r>danza<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>electromagnética<s n="n"/></l><r>electromagnética<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>fusión<s n="n"/></l><r>fusion<s n="n"/></r></p></e>
@@ -235,6 +235,7 @@
       <e><par n="noun-prefixes"/><p><l>konet<s n="n"/></l><r>conetl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>kosantsin<s n="n"/></l><r>cozamalotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>kuahuitl<s n="n"/></l><r>cohuitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>kuekti<s n="n"/></l><r>oztotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>makpal<s n="n"/></l><r>mayolix<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>mama<s n="n"/></l><r>maman<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>metsti<s n="n"/></l><r>metztli<s n="n"/></r></p></e>
@@ -318,6 +319,7 @@
       <e><p><l>nemi<s n="vaux"/></l><r>nimi<s n="vaux"/></r></p></e>
       <e><p><l>kisa<s n="vaux"/></l><r>quiza<s n="vaux"/></r></p></e>
 
+      <e><p><l>takistok<s n="adj"/></l><r>tlacualcanti<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>espacial<s n="adj"/></l><r>espacial<s n="adj"/></r></p></e>
       <e><p><l>austral<s n="adj"/></l><r>austral<s n="adj"/></r></p></e>
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
@@ -410,6 +412,7 @@
       <e><p><l>tepejxikuako<s n="adv"/></l><r>tipehxicuaco<s n="adv"/></r></p></e>
       <e><p><l>tepitsin<s n="adv"/></l><r>tipitzin<s n="adv"/></r></p></e>
       <e><p><l>tsiki<s n="adv"/></l><r>tzoco<s n="adv"/></r></p></e>
+      <e><p><l>yekinika<s n="adv"/></l><r>achto<s n="adv"/></r></p></e>
       <e><p><l>xamo<s n="adv"/></l><r>xamo<s n="adv"/></r></p></e>
       <e><p><l>ok<s n="adv"/></l><r>oc<s n="adv"/></r></p></e>
 
