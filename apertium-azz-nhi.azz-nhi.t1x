@@ -106,6 +106,7 @@
         <let><var n="subj-agr"/><lit-tag v="s_ind"/></let>
         <let><clip pos="2" side="tl" part="a_subj_agr"/><lit v=""/></let>
         <let><var n="obj-agr"/><clip pos="2" side="tl" part="a_obj_agr"/></let>
+        <let><clip pos="2" side="tl" part="a_obj_agr"/><lit v=""/></let>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -115,7 +116,7 @@
               <var n="subj-agr"/>
               <var n="obj-agr"/>
               <clip pos="2" side="tl" part="lem"/>
-              <!-- <clip pos="2" side="tl" part="tags"/> -->
+              <clip pos="2" side="tl" part="tags"/>
             </lu>
           </chunk>
         </out>
