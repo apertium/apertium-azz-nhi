@@ -223,6 +223,7 @@
       <e><par n="noun-prefixes"/><p><l>iluikak<s n="n"/></l><r>ilhuicac<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>invernadero<s n="n"/></l><r>invernadero<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>istat<s n="n"/></l><r>iztatl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>istajatl<s n="n"/></l><r>iztagatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>itskuinti<s n="n"/></l><r>itzcuintli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>ixtakopin<s n="n"/></l><r>foto<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>ixtololo<s n="n"/></l><r>ixtololo<s n="n"/></r></p></e>
@@ -265,6 +266,7 @@
       <e><par n="noun-prefixes"/><p><l>omiyot<s n="n"/></l><r>omiyotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>pajti<s n="n"/></l><r>pahtli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>piyo<s n="n"/><s n="hon"/></l><r>pollito<s n="n"/><s n="barb"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>pueblo<s n="n"/></l><r>altipetl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>radiación<s n="n"/></l><r>radiación<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>radiografía<s n="n"/></l><r>radiografía<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>radio<s n="n"/></l><r>radio<s n="n"/></r></p></e>
@@ -302,10 +304,12 @@
       <e><par n="noun-prefixes"/><p><l>tonal<s n="n"/></l><r>tonal<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tokait<s n="n"/></l><r>toca<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tokay<s n="n"/></l><r>toca<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>ueyistajatl<s n="n"/></l><r>hueyiistagatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>vía<s n="n"/></l><r>vía<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xihuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xochit<s n="n"/></l><r>xochitl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xolal<s n="n"/></l><r>barrio<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>yohual<s n="n"/></l><r>yohual<s n="n"/></r></p></e>
 
 
@@ -323,6 +327,7 @@
       <e><p><l>espacial<s n="adj"/></l><r>espacial<s n="adj"/></r></p></e>
       <e><p><l>austral<s n="adj"/></l><r>austral<s n="adj"/></r></p></e>
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
+      <e><p><l>chijchiltik<s n="adj"/></l><r>chihchiltic<s n="adj"/></r></p></e>
       <e><p><l>electromagnética<s n="adj"/></l><r>electromagnética<s n="adj"/></r></p></e>
       <e><p><l>huaki<s n="adj"/></l><r>huaqui<s n="adj"/></r></p></e>
       <e><p><l>cancerígeno<s n="adj"/></l><r>cancerígeno<s n="adj"/></r></p></e>
@@ -408,6 +413,7 @@
       <e><p><l>taijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
       <e><p><l>tatajko<s n="adv"/></l><r>tlatlahco<s n="adv"/></r></p></e>
       <e><p><l>tayijtik<s n="adv"/></l><r>tlahtic<s n="adv"/></r></p></e>
+      <e><p><l>teisa<s n="adv"/></l><r>tlen<b/>za<s n="adv"/></r></p></e>
       <e><p><l>tel<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
       <e><p><l>tepejxikuako<s n="adv"/></l><r>tipehxicuaco<s n="adv"/></r></p></e>
       <e><p><l>tepitsin<s n="adv"/></l><r>tipitzin<s n="adv"/></r></p></e>
