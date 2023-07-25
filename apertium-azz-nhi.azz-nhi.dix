@@ -199,6 +199,10 @@
    </pardefs>
 
    <section id="main" type="standard">	   
+      <e><par n="noun-prefixes"/><p><l>huan<s n="n"/><s n="rel"/></l><r>huan<s n="n"/><s n="rel"/></r></p></e>
+
+      <e><par n="noun-prefixes"/><p><l>altepet<s n="n"/></l><r>altepetl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xolal<s n="n"/></l><r>altepetl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>achipahualis<s n="n"/></l><r>achupahualiztl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>agosto<s n="n"/></l><r>agosto<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>askat<s n="n"/></l><r>azcatl<s n="n"/></r></p></e>
@@ -309,8 +313,14 @@
       <e><par n="noun-prefixes"/><p><l>xihuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xiuit<s n="n"/></l><r>xihuitl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>xochit<s n="n"/></l><r>xochitl<s n="n"/></r></p></e>
-      <e><par n="noun-prefixes"/><p><l>xolal<s n="n"/></l><r>barrio<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>xolal<s n="n"/></l><r>barrio<s n="n"/><s n="m"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>yohual<s n="n"/></l><r>yohual<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>sihuat<s n="n"/></l><r>cihuatl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>takat<s n="n"/></l><r>tlacatl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>sombrero<s n="n"/><s n="m"/></l><r>sombrero<s n="n"/><s n="m"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>totot<s n="n"/></l><r>tototl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>huipil<s n="n"/></l><r>huipil<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>ikni<s n="n"/></l><r>icni<s n="n"/></r></p></e>
 
 
       <e><p><l>Próxima<s n="np"/></l><r>Próxima<s n="np"/></r></p></e>
@@ -323,8 +333,9 @@
       <e><p><l>nemi<s n="vaux"/></l><r>nimi<s n="vaux"/></r></p></e>
       <e><p><l>kisa<s n="vaux"/></l><r>quiza<s n="vaux"/></r></p></e>
 
-      <e><p><l>takistok<s n="adj"/></l><r>tlacualcanti<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>takistok<s n="adj"/></l><r>tlacualcanti<s n="v"/><s n="iv"/></r></p></e> <!-- !!! -->
       <e><p><l>espacial<s n="adj"/></l><r>espacial<s n="adj"/></r></p></e>
+      <e><p><l>morado<s n="adj"/></l><r>morado<s n="adj"/></r></p></e>
       <e><p><l>austral<s n="adj"/></l><r>austral<s n="adj"/></r></p></e>
       <e><p><l>chikahuak<s n="adj"/></l><r>chicahuac<s n="adj"/></r></p></e>
       <e><p><l>chijchiltik<s n="adj"/></l><r>chihchiltic<s n="adj"/></r></p></e>
@@ -390,6 +401,8 @@
 
 
       <e><p><l>achtopa<s n="adv"/></l><r>achto<s n="adv"/></r></p></e>
+      <e><p><l>huejkau<s n="adv"/></l><r>huehca<s n="adv"/></r></p></e>
+      <e><p><l>achto<s n="adv"/></l><r>achto<s n="adv"/></r></p></e>
       <e><p><l>axkan<s n="adv"/></l><r>axan<s n="adv"/></r></p></e>
       <e><p><l>amo<s n="adv"/></l><r>amo<s n="adv"/></r></p></e>
       <e><p><l>ayamo<s n="adv"/></l><r>ayamo<s n="adv"/></r></p></e>
@@ -494,6 +507,7 @@
       <e><par n="verb-prefixes"/><p><l>xota<s n="v"/></l><r>xotla<s n="v"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>yehualohua<s n="v"/><s n="tv"/></l><r>yahualoa<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>yohui<s n="v"/><s n="iv"/></l><r>yohui<s n="v"/><s n="iv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>talilia<s n="v"/><s n="tv"/></l><r>tlalilia<s n="v"/><s n="tv2"/></r></p></e>
 
       <e><p><l>aaa<s n="ij"/></l><r>aaa<s n="ij"/></r></p></e>
 
