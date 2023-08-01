@@ -57,6 +57,7 @@
       <attr-item tags="s_pl3"/>
       <attr-item tags="s_ind"/>
     </def-attr>
+
     <def-attr n="a_obj_agr">
       <attr-item tags="o_ref"/>
       <attr-item tags="o_sg1"/>
@@ -65,6 +66,17 @@
       <attr-item tags="o_pl1"/>
       <attr-item tags="o_pl2"/>
       <attr-item tags="o_pl3"/>
+    </def-attr>
+
+
+    <def-attr n="a_iobj_agr">
+      <attr-item tags="i_ref"/>
+      <attr-item tags="i_sg1"/>
+      <attr-item tags="i_sg2"/>
+      <attr-item tags="i_sg3"/>
+      <attr-item tags="i_pl1"/>
+      <attr-item tags="i_pl2"/>
+      <attr-item tags="i_pl3"/>
     </def-attr>
 
     <def-attr n="a_poss">
@@ -84,6 +96,7 @@
     <def-var n="number"/>
     <def-var n="poss"/>
     <def-var n="obj-agr"/>
+    <def-var n="iobj-agr"/>
     <def-var n="subj-agr"/>
   </section-def-vars>
 
@@ -189,8 +202,10 @@
         <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
         <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
         <let><var n="obj-agr"/><clip pos="1" side="tl" part="a_obj_agr"/></let>
+        <let><var n="iobj-agr"/><clip pos="1" side="tl" part="a_iobj_agr"/></let>
         <let><clip pos="1" side="tl" part="a_subj_agr"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_obj_agr"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_iobj_agr"/><lit v=""/></let>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -198,6 +213,7 @@
             </tags>
             <lu>
               <var n="subj-agr"/>
+              <var n="iobj-agr"/>
               <var n="obj-agr"/>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="tags"/>
