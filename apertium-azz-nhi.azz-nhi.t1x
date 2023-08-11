@@ -7,6 +7,9 @@
     <def-cat n="notsa_ref">
       <cat-item lemma="notsa" tags="v.tv.pres.*.i_ref.*"/>
     </def-cat>
+    <def-cat n="onka_pret">
+      <cat-item lemma="onka" tags="v.iv.pret"/>
+    </def-cat>
     <def-cat n="se">
       <cat-item lemma="se" tags="*"/>
     </def-cat>
@@ -57,6 +60,11 @@
       <attr-item tags="s_pl3"/>
       <attr-item tags="s_ind"/>
     </def-attr>
+    
+    <def-attr n="non_future_tenses">
+      <attr-item tags="pret"/>
+      <attr-item tags="impf"/>
+    </def-attr>
 
     <def-attr n="a_obj_agr">
       <attr-item tags="o_ref"/>
@@ -98,6 +106,7 @@
     <def-var n="obj-agr"/>
     <def-var n="iobj-agr"/>
     <def-var n="subj-agr"/>
+    <def-var n="tense-agr"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -110,6 +119,29 @@
   </section-def-macros>
 
   <section-rules>
+    <rule comment="REGLA: SE-SEP">
+      <pattern>
+        <pattern-item n="onka_pret"/>
+      </pattern>
+      <action>
+        <let><var n="tense-agr"/><lit-tag v="impf"/></let>
+        <let><clip pos="2" side="tl" part="non_future_tenses"/><lit v=""/></let>
+        <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <var n="subj-agr"/>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <var n="tense-agr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="REGLA: SE-SEP">
       <pattern>
         <pattern-item n="se"/>
