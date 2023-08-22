@@ -98,6 +98,9 @@
     <sdef n="rquot"           c="Right quote"/>
     <sdef n="lquest"           c=""/>
 
+    <sdef n="and"           c=""/>
+    <sdef n="ven"           c=""/>
+    
     <sdef n="i_sg1"           c=""/>
     <sdef n="i_aa"           c=""/>
     <sdef n="i_nn"           c=""/>
