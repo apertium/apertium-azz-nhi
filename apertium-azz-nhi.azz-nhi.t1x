@@ -50,6 +50,7 @@
       <attr-item tags="@det"/>
       <attr-item tags="@cc"/>
       <attr-item tags="@mark"/>
+      <attr-item tags="@discourse"/>
     </def-attr>
     <def-attr n="a_subj_agr">
       <attr-item tags="s_sg1"/>
