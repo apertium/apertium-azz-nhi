@@ -78,6 +78,8 @@
       <attr-item tags="o_pl1"/>
       <attr-item tags="o_pl2"/>
       <attr-item tags="o_pl3"/>
+      <attr-item tags="o_nn"/>
+      <attr-item tags="o_aa"/>
     </def-attr>
 
 
@@ -89,6 +91,7 @@
       <attr-item tags="i_pl1"/>
       <attr-item tags="i_pl2"/>
       <attr-item tags="i_pl3"/>
+      <attr-item tags="o_aa"/>
     </def-attr>
 
     <def-attr n="a_poss">
