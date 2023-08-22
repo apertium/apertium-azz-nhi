@@ -49,6 +49,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"               c=""/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -330,6 +331,7 @@
       <e><par n="noun-prefixes"/><p><l>tajtolehualoni<s n="n"/></l><r>tlahtolehualoni<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>takat<s n="n"/></l><r>tlacatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>takayot<s n="n"/></l><r>tlacayotl<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>takenti<s n="n"/></l><r>tlaquentl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>tal<s n="n"/></l><r>tlalli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>talmanik<s n="n"/></l><r>tlalticpac<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>taltikpak<s n="n"/></l><r>tlalticpac<s n="n"/></r></p></e>
@@ -501,6 +503,7 @@
       <e><p><l>nochipa<s n="adv"/></l><r>nochipa<s n="adv"/></r></p></e>
       <e><p><l>no<s n="adv"/></l><r>noyohqui<s n="adv"/></r></p></e>
       <e><p><l>ompa<s n="adv"/></l><r>ompa<s n="adv"/></r></p></e>
+      <e><p><l>oksepa<s n="adv"/></l><r>occipa<s n="adv"/></r></p></e>
       <e><p><l>sayoj<s n="adv"/></l><r>zan<s n="adv"/></r></p></e>
       <e><p><l>satepan<s n="adv"/></l><r>zatepan<s n="adv"/></r></p></e>
       <e><p><l>semi<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
@@ -517,6 +520,7 @@
       <e><p><l>yekinika<s n="adv"/></l><r>achto<s n="adv"/></r></p></e>
       <e><p><l>xamo<s n="adv"/></l><r>xamo<s n="adv"/></r></p></e>
       <e><p><l>ok<s n="adv"/></l><r>oc<s n="adv"/></r></p></e>
+      <e><p><l>pon<s n="adv"/></l><r>ahí<s n="adv"/></r></p></e>
       <e><p><l>ilihuis<s n="adv"/></l><r>cimi<s n="adv"/></r></p></e>
       <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
 
@@ -537,6 +541,7 @@
       <e><par n="verb-prefixes"/><p><l>formarohua<s n="v"/><s n="tv"/></l><r>formaroa<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>huantia<s n="v"/><s n="tv"/></l><r>huantia<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="iv"/></l><r>huili<s n="v"/><s n="iv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>huelita<s n="v"/><s n="tv"/></l><r>pactia<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>huika<s n="v"/><s n="tv"/></l><r>huica<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>i<s n="v"/><s n="tv"/></l><r>oni<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>ilpiya<s n="v"/><s n="tv"/></l><r>ilpia<s n="v"/><s n="tv"/></r></p></e>
