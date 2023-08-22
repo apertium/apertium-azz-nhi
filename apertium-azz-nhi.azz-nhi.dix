@@ -135,11 +135,15 @@
     <sdef n="px2pl"           c=""/>
     <sdef n="px3pl"           c=""/>
 
-    <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
-    <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
+    <sdef n="sen"           c=""/>
+    <sdef n="cin"           c=""/>
   </sdefs>
 
    <pardefs>
+     <pardef n="verb-adv-incorp">
+	     <e><p><l><s n="sen"/></l><r><s n="cin"/></r></p></e>
+      <e><p><l></l><r></r></p></e>
+     </pardef>
      <pardef n="verb-agr-iobject">
 	     <e><p><l><s n="i_ref"/></l><r><s n="refl"/></r></p></e>
 	     <e><p><l><s n="i_nn"/></l><r><s n="i_nn"/></r></p></e>
@@ -177,7 +181,7 @@
       <e><p><l></l><r></r></p></e>
      </pardef>
      <pardef n="verb-prefixes">
-	 <e><p><l></l><r></r></p><par n="verb-agr-subject"/><par n="verb-agr-iobject"/><par n="verb-agr-object"/></e>
+	 <e><p><l></l><r></r></p><par n="verb-agr-subject"/><par n="verb-agr-iobject"/><par n="verb-agr-object"/><par n="verb-adv-incorp"/></e>
 	    
       <e><p><l></l><r></r></p></e>
      </pardef>
@@ -503,6 +507,7 @@
 
       <e><par n="verb-prefixes"/><p><l>ajsi<s n="v"/><s n="tv"/></l><r>ahci<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>ajsi<s n="v"/><s n="iv"/></l><r>ahci<s n="v"/><s n="iv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>huala<s n="v"/><s n="iv"/></l><r>huala<s n="v"/><s n="iv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>aki<s n="v"/><s n="iv"/></l><r>aqui<s n="v"/><s n="iv"/></r></p></e>      
       <e><par n="verb-prefixes"/><p><l>ajsikamati<s n="v"/><s n="tv"/></l><r>ahcicamati<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>chihua<s n="v"/><s n="tv"/></l><r>chihua<s n="v"/><s n="tv"/></r></p></e>
