@@ -4,6 +4,9 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="discourse">
+      <cat-item tags="ij.*"/>
+    </def-cat>
     <def-cat n="notsa_ref">
       <cat-item lemma="notsa" tags="v.tv.pres.*.i_ref.*"/>
     </def-cat>
@@ -300,8 +303,24 @@
         </out>
       </action>
     </rule>
-
-
+    <rule comment="REGLA: DISCOURSE">
+      <pattern>
+        <pattern-item n="discourse"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <out>
+          <chunk name="discourse" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="DISCOURSE"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="REGLA: CC">
       <pattern>
         <pattern-item n="cnjcoo"/>
