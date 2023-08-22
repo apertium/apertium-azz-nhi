@@ -199,6 +199,12 @@
       <e><p><l></l><r></r></p></e>
      </pardef>
 
+     <pardef n="num-prefixes">
+	 <e><p><l></l><r></r></p><par n="verb-agr-subject"/></e>
+	 <e><p><l><s n="s_sg2"/><s n="hon"/></l><r><s n="s_sg2"/><s n="hon"/></r></p></e>
+     </pardef>
+
+
      <pardef n="noun-prefixes">
 	 <e><p><l></l><r></r></p><par n="verb-agr-subject"/><par n="poss-prefixes"/></e>
 	 <e><p><l><s n="s_sg2"/><s n="hon"/></l><r><s n="s_sg2"/><s n="hon"/></r></p><par n="poss-prefixes"/></e>
@@ -442,9 +448,9 @@
 
 
       <e><p><l>se<s n="num"/></l><r>ce<s n="num"/></r></p></e>
-      <e><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
-      <e><p><l>eyi<s n="num"/></l><r>yeyi<s n="num"/></r></p></e>
-      <e><p><l>veinte<s n="num"/></l><r>veinte<s n="num"/></r></p></e>
+      <e><par n="num-prefixes"/><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
+      <e><par n="num-prefixes"/><p><l>eyi<s n="num"/></l><r>yeyi<s n="num"/></r></p></e>
+      <e><par n="num-prefixes"/><p><l>veinte<s n="num"/></l><r>veinte<s n="num"/></r></p></e>
 
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
