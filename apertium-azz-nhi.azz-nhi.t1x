@@ -140,7 +140,7 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="REGLA: SE-SEP">
+    <rule comment="REGLA: ONKA-PRET">
       <pattern>
         <pattern-item n="onka_pret"/>
       </pattern>
@@ -332,8 +332,6 @@
         <let><var n="poss"/><lit v=""/></let>
       </action>
     </rule>
-
-
     <rule comment="REGLA: DET">
       <pattern>
         <pattern-item n="det"/>
