@@ -441,10 +441,10 @@
       <e><p><l>por<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
 
 
-      <e><p><l>se<s n="num"/></l><r>ce<s n="num"/></r></p></e>
-      <e><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
-      <e><p><l>eyi<s n="num"/></l><r>yeyi<s n="num"/></r></p></e>
-      <e><p><l>veinte<s n="num"/></l><r>veinte<s n="num"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>se<s n="num"/></l><r>ce<s n="num"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>ome<s n="num"/></l><r>ome<s n="num"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>eyi<s n="num"/></l><r>yeyi<s n="num"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>veinte<s n="num"/></l><r>veinte<s n="num"/></r></p></e>
 
       <e><p><l>huan<s n="cnjcoo"/></l><r>huan<s n="cnjcoo"/></r></p></e>
       <e><p><l>keman<s n="cnjsub"/></l><r>queman<s n="cnjsub"/></r></p></e>
