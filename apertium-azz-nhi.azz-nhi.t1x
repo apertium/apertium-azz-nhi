@@ -4,6 +4,9 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
+    <def-cat n="pr">
+      <cat-item tags="pr.*"/>
+    </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
@@ -378,6 +381,24 @@
           <chunk name="cc" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="CC"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: PREP">
+      <pattern>
+        <pattern-item n="pr"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
+        <out>
+          <chunk name="pr" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PREP"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
