@@ -108,6 +108,9 @@
       <attr-item tags="px2pl"/>
       <attr-item tags="px3pl"/>
     </def-attr>
+    <def-attr n="v_hon">
+      <attr-item tags="hon"/>
+    </def-attr>    
     <def-attr n="a_adv">
       <attr-item tags="cin"/>
       <attr-item tags="sen"/>
@@ -125,18 +128,27 @@
     <def-var n="subj-agr"/>
     <def-var n="tense-agr"/>
     <def-var n="adv-incorp"/>
+    <def-var n="v-hon"/>
   </section-def-vars>
 
   <section-def-macros>
     <def-macro n="reset_vars1" npar="1">
                         <let><var n="adv-incorp"/><lit v=""/></let>
     </def-macro>
-
     <def-macro n="set_verb_tags1" npar="1">
           <!-- When we have an incorporated adverb, we need to move it to the beginning -->
           <choose><when><test><equal><clip pos="1" side="sl" part="a_adv"/><lit-tag v="sen"/></equal></test>
                         <let><var n="adv-incorp"/><lit-tag v="cin"/></let> 
                         <let><clip pos="1" side="tl" part="a_adv"/><lit v=""/></let>
+                        </when></choose>          
+    </def-macro>
+    <def-macro n="reset_vars2" npar="1">
+                        <let><var n="v-hon"/><lit v=""/></let>
+    </def-macro>
+    <def-macro n="set_verb_tags2" npar="1">
+          <choose><when><test><equal><clip pos="1" side="sl" part="v_hon"/><lit-tag v="hon"/></equal></test>
+                        <let><var n="v-hon"/></let><lit-tag v="cin"/> 
+                        <let><clip pos="1" side="tl" part="v_hon"/><lit v=""/></let>
                         </when></choose>
     </def-macro>
 
@@ -244,6 +256,7 @@
             </tags>
             <lu>
               <var n="subj-agr"/>
+              <var n="v-hon"/>
               <var n="adv-incorp"/>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="tags"/>
@@ -277,6 +290,7 @@
               <var n="subj-agr"/>
               <var n="iobj-agr"/>
               <var n="obj-agr"/>
+              <var n="v-hon"/>
               <var n="adv-incorp"/>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="tags"/>

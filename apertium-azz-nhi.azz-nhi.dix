@@ -100,8 +100,8 @@
     <sdef n="rquot"           c="Right quote"/>
     <sdef n="lquest"           c=""/>
 
-    <sdef n="and"           c=""/>
-    <sdef n="ven"           c=""/>
+    <sdef n="and"           c="Andative"/>
+    <sdef n="ven"           c="Venitive"/>
     
     <sdef n="i_sg1"           c=""/>
     <sdef n="i_aa"           c=""/>
