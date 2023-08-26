@@ -147,6 +147,7 @@
    <pardefs>
      <pardef n="honorific">
 	     <e><p><l><s n="on"/></l><r><s n="hon"/></r></p></e>
+	     <e><p><l><s n="hon"/></l><r><s n="hon"/></r></p></e>
       <e><p><l></l><r></r></p></e>
      </pardef>
      <pardef n="verb-adv-incorp">
