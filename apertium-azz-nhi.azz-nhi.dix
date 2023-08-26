@@ -290,11 +290,13 @@
       <e><par n="noun-prefixes"/><p><l>miston<s n="n"/></l><r>mizton<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>milaj<s n="n"/></l><r>milli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>mixkohuat<s n="n"/></l><r>galaxia<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>mixiote<s n="n"/></l><r>mixiote<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>mixti<s n="n"/></l><r>mixtli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>mixuak<s n="n"/></l><r>huaqui<b/>mixtli<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>molécula<s n="n"/></l><r>molécula<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nahuat<s n="n"/></l><r>nahuatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nakastan<s n="n"/></l><r>nacaztlan<s n="n"/></r></p></e>
+      <e><par n="noun-prefixes"/><p><l>nakat<s n="n"/></l><r>nacatl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nakayot<s n="n"/></l><r>nacayotl<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>nemachtil<s n="n"/></l><r>tlamachtil<s n="n"/></r></p></e>
       <e><par n="noun-prefixes"/><p><l>neskayot<s n="n"/></l><r>nezcayotl<s n="n"/></r></p></e>
@@ -544,6 +546,7 @@
       <e><par n="verb-prefixes"/><p><l>etok<s n="cop"/></l><r>catqui<s n="cop"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>formarohua<s n="v"/><s n="tv"/></l><r>formaroa<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>huantia<s n="v"/><s n="tv"/></l><r>huantia<s n="v"/><s n="tv"/></r></p></e>
+      <e><par n="verb-prefixes"/><p><l>huatsa<s n="v"/><s n="tv"/></l><r>huatza<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>hueli<s n="v"/><s n="iv"/></l><r>huili<s n="v"/><s n="iv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>huelita<s n="v"/><s n="tv"/></l><r>pactia<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>huika<s n="v"/><s n="tv"/></l><r>huica<s n="v"/><s n="tv"/></r></p></e>

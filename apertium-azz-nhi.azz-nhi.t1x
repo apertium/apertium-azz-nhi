@@ -28,6 +28,9 @@
     <def-cat n="verb">
       <cat-item tags="v.*"/>
     </def-cat>
+    <!-- <def-cat n="nonverb-hon">
+      <cat-item tags="n.*|adj.*"/>
+    </def-cat> -->
     <def-cat n="verb-tv">
       <cat-item tags="v.tv.*"/>
     </def-cat>
@@ -110,7 +113,7 @@
     </def-attr>
     <def-attr n="v_hon">
       <attr-item tags="hon"/>
-      <attr-item tags="on"/>
+      <!-- <attr-item tags="on"/> -->
     </def-attr>    
     <def-attr n="a_adv">
       <attr-item tags="cin"/>
@@ -135,8 +138,7 @@
   <section-def-macros>
     <def-macro n="reset_vars1" npar="1">
                         <let><var n="adv-incorp"/><lit v=""/></let>
-                        <let><var n="v-hon"/><lit v=""/></let>
-
+                        <!-- <let><var n="v-hon"/><lit v=""/></let> -->
     </def-macro>
     <def-macro n="set_verb_tags1" npar="1">
           <!-- When we have an incorporated adverb, we need to move it to the beginning -->
@@ -145,12 +147,11 @@
                         <let><clip pos="1" side="tl" part="a_adv"/><lit v=""/></let>
                         </when></choose>
           <!-- When we have an honorific prefix, we have to move the tag to the beginning -->
-          <choose><when><test><equal><clip pos="1" side="sl" part="v_hon"/><lit-tag v="on"/></equal></test>
+          <!-- <choose><when><test><equal><clip pos="1" side="sl" part="v_hon"/><lit-tag v="hon"/></equal></test>
                         <let><var n="v-hon"/><lit-tag v="hon"/> </let>
                         <let><clip pos="1" side="tl" part="v_hon"/><lit v=""/></let>
-                        </when></choose>
+                        </when></choose> -->
     </def-macro>
-
 
   </section-def-macros>
 
@@ -248,6 +249,7 @@
         <call-macro n="set_verb_tags1"><with-param pos="1"/></call-macro>
         <let><clip pos="1" side="tl" part="a_dep"/><lit v=""/></let>
         <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
+        <let><var n="v-hon"/><clip pos="1" side="tl" part="v_hon"/></let>
         <let><clip pos="1" side="tl" part="a_subj_agr"/><lit v=""/></let>
         <out>
           <chunk name="v" case="caseFirstWord">
@@ -265,6 +267,7 @@
         </out>
         <call-macro n="reset_vars1"><with-param pos="2"/></call-macro>
         <let><var n="poss"/><lit v=""/></let>
+        <let><var n="v-hon"/><lit v=""/></let>
       </action>
     </rule>
 
@@ -278,6 +281,7 @@
         <let><var n="subj-agr"/><clip pos="1" side="tl" part="a_subj_agr"/></let>
         <let><var n="obj-agr"/><clip pos="1" side="tl" part="a_obj_agr"/></let>
         <let><var n="iobj-agr"/><clip pos="1" side="tl" part="a_iobj_agr"/></let>
+        <let><var n="v-hon"/><clip pos="1" side="tl" part="v_hon"/></let>
         <let><clip pos="1" side="tl" part="a_subj_agr"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_obj_agr"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_iobj_agr"/><lit v=""/></let>
@@ -299,6 +303,7 @@
         </out>
         <call-macro n="reset_vars1"><with-param pos="2"/></call-macro>
         <let><var n="poss"/><lit v=""/></let>
+        <let><var n="v-hon"/><lit v=""/></let>
       </action>
     </rule>
 
