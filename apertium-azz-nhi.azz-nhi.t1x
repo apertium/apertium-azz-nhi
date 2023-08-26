@@ -147,7 +147,7 @@
     </def-macro>
     <def-macro n="set_verb_tags2" npar="1">
           <choose><when><test><equal><clip pos="1" side="sl" part="v_hon"/><lit-tag v="hon"/></equal></test>
-                        <let><var n="v-hon"/></let><lit-tag v="hon"/> 
+                        <let><var n="v-hon"/><lit-tag v="hon"/> </let>
                         <let><clip pos="1" side="tl" part="v_hon"/><lit v=""/></let>
                         </when></choose>
     </def-macro>
