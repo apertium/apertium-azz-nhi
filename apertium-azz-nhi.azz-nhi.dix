@@ -594,7 +594,8 @@
       <e><par n="verb-prefixes"/><p><l>pehualtia<s n="v"/><s n="tv"/></l><r>pehualtia<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>pertenecerohua<s n="v"/><s n="tv"/></l><r>perteneceroa<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>piya<s n="v"/><s n="tv"/></l><r>piya<s n="v"/><s n="tv"/></r></p></e>
-      <e><par n="verb-prefixes"/><p><l>pohui<s n="v"/><s n="tv"/></l><r>pohui<s n="v"/><s n="tv"/></r></p></e>
+      <!-- <e><par n="verb-prefixes"/><p><l>pohui<s n="v"/><s n="tv"/></l><r>pohui<s n="v"/><s n="tv"/></r></p></e> -->
+      <e><par n="verb-prefixes"/><p><l>tapohui<s n="v"/><s n="tv"/></l><r>nohnotza<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>pojpoloua<s n="v"/><s n="tv"/></l><r>pohpoloa<s n="v"/><s n="tv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>polihui<s n="v"/><s n="iv"/></l><r>polihui<s n="v"/><s n="iv"/></r></p></e>
       <e><par n="verb-prefixes"/><p><l>sentilia<s n="v"/><s n="tv"/></l><r>cintilia<s n="v"/><s n="tv"/></r></p></e>
