@@ -54,8 +54,8 @@ If you are in the source directory after running make, the following
 commands should work:
 
 ```console
-$ echo "TODO test sentence 1" | apertium -d . azz-nhi
-TODO test translated sentence 1
+$ echo "Axkan nikneki ninamechtapohuis de se danza tech campa nej nimijtotia" | apertium -d . azz-nhi
+Axan nicniqui nimechnohnotzaz de ce danza itich campa neh nimihtotia
 
 $ echo "TODO test sentence 2" | apertium -d . nhi-azz
 TODO test translated sentence 2
