@@ -16,7 +16,6 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).autogen.hfst \
 	$(PREFIX1).autoseq.bin	\
 	$(PREFIX1).revautoseq.bin	\
-	$(PREFIX1).autogen.hfst \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin
